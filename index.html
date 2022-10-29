@@ -1,0 +1,102 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yummy</title>
+  <link rel="shortcut icon" href="img/logo.png" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="bg-black">
+  <!-- ============================= Strat Navbar ============================= -->
+  <nav class="navbar h-100 p-0">
+    <div class="links h-100 bg-black">
+      <ul class="nav-link">
+        <li class="item1">
+          <a data-list="search" class="nav-category">Search</a>
+        </li>
+        <li class="item2">
+          <a data-list="categories" class="nav-category">Categories</a>
+        </li>
+        <li class="item3"><a data-list="a" class="nav-category">Area</a></li>
+        <li class="item4">
+          <a data-list="i" class="nav-category">Ingredients</a>
+        </li>
+        <li class="item5">
+          <a data-list="contact" class="nav-category">Contact Us</a>
+        </li>
+      </ul>
+      <div class="copy p-2">
+        <div class="icon my-1">
+          <a><i class="fa-brands fa-facebook-f px-1"></i></a>
+          <a><i class="fa-brands fa-twitter px-1"></i></a>
+          <a><i class="fa-solid fa-globe px-1"></i></a>
+        </div>
+        <p class="text-muted">Contact Us Copyright Â© 2019 All Rights Reserved.</p>
+      </div>
+    </div>
+    <div class="control bg-light h-100 py-4 d-flex flex-column align-items-center justify-content-between">
+      <div class="logo text-center">
+        <img src="img/logo.png" alt="logo" class="w-75" />
+      </div>
+      <div class="toggel">
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </div>
+      <div class="icon d-flex flex-column align-items-center">
+        <i class="fa-solid fa-globe fa-2x py-3"></i>
+        <i class="fa-solid fa-share-alt fa-2x py-3"></i>
+      </div>
+    </div>
+  </nav>
+  <!-- ============================= End Navbar ============================= -->
+
+  <!-- ============================= Start Show Data ============================= -->
+  <section class="px-4 pt-5 home">
+    <div class="container p-5">
+      <div class="row gy-3 p-2" id="rowData"></div>
+    </div>
+  </section>
+  <!-- ============================= End Show Data ============================= -->
+
+  <!-- ============================= Start Search ============================= -->
+  <section class="search py-5">
+    <div class="container">
+      <div class="row gy-3 justify-content-center searchContainer">
+        <div class="col-lg-5">
+          <input type="text" placeholder="search By First Letter..." class="w-100" id="searchByLetter" />
+        </div>
+        <div class="col-lg-5">
+          <input type="text" placeholder="search By Name..." class="w-100" id="searchByName" />
+        </div>
+      </div>
+      <div class="row gy-3 justify-content-center" id="rowSearch">
+      </div>
+      <div class="row gy-3 justify-content-center" id="rowSearchINfo">
+      </div>
+  </section>
+  <!-- ============================= End Search ============================= -->
+
+  <!-- ============================= Start area ============================= -->
+  <section class="area py-5">
+    <div class="container">
+      <div class="row gy-3 justify-content-center" id="rowArea">
+
+      </div>
+    </div>
+  </section>
+  <!-- ============================= End area ============================= -->
+  <!-- ============================= Strat loading Screen ============================= -->
+  <div class="loading bg-dark">
+    <i class="fa-solid fa-spin fa-spinner text-white fa-5x spinner"></i>
+  </div>
+  <!-- ============================= End loading Screen ============================= -->
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

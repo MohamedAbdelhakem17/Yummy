@@ -1,0 +1,173 @@
+/* ============================= Start Global Rules ============================= */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* overflow: hidden; */
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ============================= End Global Rules ============================= */
+
+/* ============================= Strat Navbar ============================= */
+.navbar {
+  position: fixed;
+  top: 0%;
+  width: 250px;
+  z-index: 8888888888888;
+}
+.navbar .links {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navbar .control {
+  width: 50px;
+}
+.navbar .toggel {
+  cursor: pointer;
+}
+.navbar .icon i {
+  cursor: pointer;
+}
+
+.navbar .nav-link {
+  height: 400px;
+  padding: 20px;
+  overflow: hidden;
+}
+.navbar .nav-link li {
+  padding-top: 300px;
+  color: white;
+  opacity: 0;
+  margin-bottom: 20px;
+}
+.navbar .nav-link li a {
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+/* ============================= End Navbar ============================= */
+
+/* ============================= Start Home ============================= */
+.ineer {
+  border-radius: 10px;
+  width: 90%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.ineer .text {
+  top: 150%;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.658);
+  transition: top 0.5s linear;
+  text-align: center;
+}
+.ineer:hover .text {
+  top: 0px;
+}
+/* ============================= End Home ============================= */
+
+/* ============================= Start Search ============================= */
+.search {
+  display: none;
+}
+.search input[type="text"] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  color: white;
+}
+.search input[type="text"]:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+.search input[type="text"]::placeholder {
+  text-align: center;
+}
+/* ============================= End Search ============================= */
+
+/* ============================= Start categories ============================= */
+.categories {
+  display: none;
+}
+/* ============================= End categories ============================= */
+
+/* ============================= Start area ============================= */
+.area {
+  display: none;
+}
+/* ============================= End area ============================= */
+/* ============================= Start ingredients ============================= */
+.ingredients {
+  display: none;
+}
+/* ============================= End ingredients ============================= */
+/* ============================= Strat loading Screen ============================= */
+.loading {
+  display: grid;
+  place-items: center;
+  position: fixed;
+  inset: 0;
+  z-index: 5555555555;
+}
+/* ============================= End loading Screen ============================= */
+.movie {
+  box-shadow: 0px 0px 20px rgba(109, 108, 108, 0.15) inset;
+}
+.post {
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(109, 108, 108, 0.15);
+}
+.contact {
+  display: none;
+}
+.contact input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  color: white;
+  width: 100%;
+}
+.contact input:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+.contact input::placeholder {
+  text-align: center;
+}
+
+.mybadge {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 4px;
+  padding: 0 1px;
+}
